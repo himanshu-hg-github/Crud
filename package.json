@@ -1,0 +1,29 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Crud operations on project using Node, Express, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshu-hg-github/Crud.git"
+  },
+  "author": "Himanshu Gupta HG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshu-hg-github/Crud/issues"
+  },
+  "homepage": "https://github.com/himanshu-hg-github/Crud#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
